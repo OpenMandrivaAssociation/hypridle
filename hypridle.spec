@@ -22,10 +22,10 @@ BuildRequires:  pkgconfig(sdbus-c++)
 
 %build
 %cmake -DCMAKE_BUILD_TYPE:STRING=Release
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%make_install -C build
 
 %files
 %license LICENSE
