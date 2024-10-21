@@ -10,6 +10,7 @@ Source0:        https://github.com/hyprwm/hypridle/archive/v%{version}/%{name}-%
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(libsystemd)
 BuildRequires:  pkgconfig(hyprlang)
+BuildRequires:  pkgconfig(hyprutils)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(sdbus-c++)
