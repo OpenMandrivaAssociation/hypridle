@@ -33,6 +33,7 @@ BuildRequires:  pkgconfig(sdbus-c++)
 %doc README.md
 %{_bindir}/%{name}
 %{_userunitdir}/%{name}.service
+%{_datadir}/hypr/hypridle.conf
 
 %post
 %systemd_user_post %{name}.service
