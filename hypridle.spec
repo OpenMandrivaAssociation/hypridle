@@ -1,6 +1,6 @@
 Name:           hypridle
 Version:        0.1.5
-Release:        2
+Release:        3
 Summary:        Hyprland's idle daemon
 License:        BSD-3-Clause
 Group:          Hyprland
