@@ -11,6 +11,7 @@ BuildRequires:  cmake
 BuildRequires:  pkgconfig(libsystemd)
 BuildRequires:  pkgconfig(hyprlang)
 BuildRequires:  pkgconfig(hyprutils)
+BuildRequires:  pkgconfig(hyprwayland-scanner)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(sdbus-c++)
